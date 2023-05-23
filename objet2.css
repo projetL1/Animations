@@ -1,0 +1,40 @@
+body {
+    align-items: center;
+}
+
+.Objets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cercle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 2rem;
+}
+
+.carre {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 2rem;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid green;
+    margin: 2rem;
+}
+
+.losange {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin: 2rem;
+}
