@@ -1,0 +1,34 @@
+ /** objet **/
+ .obj {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(175, 1, 175);
+    border-radius: 50%;
+  }
+
+/** bombe */
+
+.bombe{
+    margin-left: 50%;
+    margin-top: 45px;
+    animation-name: bombe;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  
+  @keyframes bombe {
+    16.6% { scale: 12%; }
+    33.2% { scale: 80%;}
+    49.8% { scale: 12%; }
+    66.4% { scale: 80%; }
+    83% { 
+      scale: 12%;
+      opacity: 100%; 
+    }
+    100% { 
+      scale: 200%;
+      opacity: 0%;
+    }
+  }
