@@ -1,7 +1,7 @@
  /** objet **/
  .obj {
-    width: 80px;
-    height: 80px;
+    width: 250px;
+    height: 250px;
     background-color: rgb(175, 1, 175);
     border-radius: 50%;
   }
@@ -9,7 +9,7 @@
 /** bombe */
 
 .bombe{
-    margin-left: 50%;
+    margin-left: 35%;
     margin-top: 45px;
     animation-name: bombe;
     animation-duration: 5s;
