@@ -16,7 +16,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: black;
     margin: 2rem;
     display: flex;
     align-items: center;
@@ -24,7 +24,17 @@ body {
 }
 
 .carre {
-    width: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    margin: 2rem;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carre2 {
+    width: 200px;
     height: 100px;
     background-color: blue;
     margin: 2rem;
@@ -42,6 +52,20 @@ body {
     border-left: 100px solid green;
     margin: 2rem;
 }
+
+.losange {
+    width: 75px;
+    height: 75px;
+    background-color:blue;
+    transform: rotate(45deg);
+    margin: 2rem;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
 
 .losange {
     width: 75px;
