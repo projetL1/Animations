@@ -1,0 +1,97 @@
+ /** objet **/
+ .obj {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(175, 1, 175);
+    border-radius: 50%;
+  }
+
+/** bombe */
+
+.bombe{
+    margin-left: 50%;
+    margin-top: 45px;
+  }
+  
+  .bombe:hover{
+    animation-name: bombe;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes bombe {
+    5.5% { 
+      scale: 50%; 
+      background-color: #ff0800;
+    }
+    11% { 
+      scale: 80%;
+      background-color: #ff0800;
+    }
+    16.5% { 
+      scale: 50%; 
+      background-color: #ff0800;
+    }
+    22% { 
+      scale: 80%;
+      background-color: #ff0800;
+    }
+    27.5% { 
+      scale: 50%; 
+      background-color: #ff0800;
+    }
+    33% { 
+      scale: 80%;
+      background-color: #ff0800;
+    }
+    38.5% { 
+      scale: 50%; 
+      background-color: #ff0800;
+    }
+    44% { 
+      scale: 80%;
+      background-color: #ff0800;
+    }
+    49.5% { 
+      scale: 50%; 
+      background-color: #ff0800;
+    }
+    55% { 
+      scale: 80%;
+      background-color: #ff0800;
+    }
+    60.5% { 
+      scale: 50%; 
+      background-color: #ff0800;
+    }
+    66% { 
+      scale: 80%;
+      background-color: #ff0800;
+    }
+    71.5% { 
+      scale: 50%; 
+      background-color: #ff0800;
+    }
+    77% { 
+      scale: 80%;
+      background-color: #ff0800;
+    }
+    82.5% { 
+      scale: 50%; 
+      background-color: #ff0800;
+    }
+    88% { 
+      scale: 80%;
+      background-color: #ff0800;
+    }
+    93.5% { 
+      scale: 50%; 
+      opacity: 100%; 
+      background-color: #ff0800;
+    }
+    100% { 
+      scale: 200%;
+      opacity: 0%;
+      background-color: #ff0800;
+    }
+  }

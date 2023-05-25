@@ -1,0 +1,73 @@
+  /** objet **/
+  body {
+    align-items: center;
+  }
+  .cercle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: blue;
+      margin: 2rem;
+      animation-name: app1;
+      animation-duration: 3s;
+      animation-fill-mode: forwards; 
+  }
+
+  .carre {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      margin: 2rem;
+      animation-name: app2;
+      animation-duration: 2s;
+      animation-fill-mode: forwards; 
+  }
+
+  .triangle {
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
+      border-left: 100px solid green;
+      margin: 2rem;
+      animation-name: app3;
+      animation-duration: 1s;
+      animation-fill-mode: forwards; 
+  }
+
+ @keyframes app1 {
+    from {
+        transform: translateX(0%);
+      }
+    
+      to {
+        transform: translateX(200%);
+      }
+ } 
+
+ @keyframes app2 {
+    from {
+        transform: translateX(0%);
+      }
+    
+      to {
+        transform: translateX(400%) rotate(180deg);
+        background-color: #8d3dae;
+      }
+ } 
+
+ @keyframes app3 {
+    from {
+        transform: translateX(0%);
+      }
+    
+    50% { transform: translateX(620%) }
+    60% { transform: translateX(580%) }
+    70% { transform: translateX(610%) }
+    80% { transform: translateX(590%) }
+    90% { transform: translateX(605%) }
+    100% { transform: translateX(600%) }
+ } 
+
+
+
