@@ -1,0 +1,56 @@
+  /** objet **/
+  body {
+    align-items: center;
+  }
+
+  .Objets {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .carre {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      margin: 2rem;
+
+  }
+
+  .un{
+    animation-name: app1;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+  }
+  .deux{
+    animation-name: app1;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+    animation-delay: 0.15s;
+  }
+  .trois{
+    animation-name: app1;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+    animation-delay: 0.30s;
+  }
+  .quatre{
+    animation-name: app1;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+    animation-delay: 0.45s;
+  }
+
+ @keyframes app1 {
+    from {
+        transform: translateY(0%);
+      }
+    50% { transform: translateY(50%) }
+    100% { transform: translateY(0%) }
+ } 
+
+
+
